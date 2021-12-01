@@ -1,6 +1,6 @@
 # DIYQuadCopterDataTransmission
 
-Built a DIY Quadcopter Drone, with an Arduino Uno microcontroller mounted atop running an RTOS program (sending Inertial Measurement Unit (IMU) Sensor captures Roll+Pitch+Yaw data over I2C buss and streaming data to Rasberry Pi over the serial port) while transmitting GPS and WebCam data connected to a Raspberry Pi 4 microprocessor (also mounted on the QuadCopter drone). The system can capture Roll+Pitch+Yaw on the Arduino Uno, send over I2C to the RPi, capture GPS Lat+Lon_Alt and WebCam Video on the RPi, send Roll+Pitch+Yaw, Lat+Lon+Alt via WiFi from RPi to a Host machine continuously streaming over a TCP/IP socket, while displaying on the host. 
+Built a DIY Quadcopter Drone, with an Arduino Uno microcontroller mounted atop running a FreeRTOS program (sending Inertial Measurement Unit (IMU) Sensor captures Roll+Pitch+Yaw data over I2C buss and streaming data to Rasberry Pi over the serial port) while transmitting GPS and WebCam data connected to a Raspberry Pi 4 microprocessor (also mounted on the QuadCopter drone). The system can capture Roll+Pitch+Yaw on the Arduino Uno, send over I2C to the RPi, capture GPS Lat+Lon_Alt and WebCam Video on the RPi, send Roll+Pitch+Yaw, Lat+Lon+Alt via WiFi from RPi to a Host machine continuously streaming over a TCP/IP socket, while displaying on the host. 
 
 
 Hardware Components:
