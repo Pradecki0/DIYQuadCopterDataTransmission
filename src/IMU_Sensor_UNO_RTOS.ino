@@ -43,7 +43,7 @@ void setup() {
     ,  (const char *)"Blink"   // A name just for humans
     ,  128  // Stack size
     ,  NULL
-    ,  2  // priority
+    ,  1  // priority
     ,  NULL );
 
   xTaskCreate(
